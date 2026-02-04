@@ -1,6 +1,6 @@
 # README.md
 
-# 🤖 NL-to-SQL Multi-Agent System
+# 🤖 DbAgent > a NL-to-SQL Multi-Agent System
 
 A production-ready application that converts natural language to SQL queries using CrewAI's multi-agent framework, powered by Ollama and PostgreSQL.
 
