@@ -82,7 +82,7 @@ ollama list
 ```bash
 # Clone repository
 git clone <your-repo-url>
-cd nl_to_sql_system
+cd DbAgent
 
 # Create virtual environment
 python -m venv venv
@@ -295,7 +295,7 @@ Edit the `backstory` in:
 ## 📊 Project Structure
 
 ```
-nl_to_sql_system/
+DbAgent/
 ├── backend/
 │   ├── main.py                 # FastAPI server
 │   ├── config.py               # Configuration
@@ -383,33 +383,3 @@ services:
     ports:
       - "8501:8501"
 ```
-
-## 🤝 Contributing
-
-Contributions welcome! Please:
-
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Submit a pull request
-
-## 📝 License
-
-MIT License - see LICENSE file
-
-## 🙏 Acknowledgments
-
-- **CrewAI** - Multi-agent framework
-- **Ollama** - Local LLM inference
-- **FastAPI** - Backend framework
-- **Streamlit** - Frontend framework
-
-## 📞 Support
-
-- GitHub Issues: [Report bugs](https://github.com/yourusername/nl-to-sql/issues)
-- Documentation: [Full docs](https://docs.example.com)
-- Discord: [Join community](https://discord.gg/example)
-
----
-
-**Built with ❤️ using CrewAI Multi-Agent Framework**
